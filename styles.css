@@ -1,0 +1,109 @@
+/*apply as a default */
+* {
+margin: 0;
+padding: 0;
+}
+
+/*apply background color and font styles in the body content */
+body {
+    background-color: #ffffffb6;
+    font-size: 16px;
+    font-family: Century Gothic;
+    
+}
+
+
+/*apply background color and font styles in the h4 content */
+h4 {
+    font-family: Century Gothic;
+    text-decoration: none;
+    font-size: 60px;
+    padding: 15px;
+    color:#6a8b8a;
+    box-shadow: 0 20px 0 0 rgba(15, 14, 75, 0.05), 0 3px 0 0 #838080;
+    text-align: center;
+    height:-50px;
+    
+}
+
+/*apply dimensions  in the ul li content */
+ul li {
+    list-style:none;  
+    display: inline-block;
+    line-height: 1px;
+    padding:10 50px;
+    width: 100px;
+    height: 100px;
+}
+
+/*apply the styling to the ul li a content */
+ul li a {
+    display: inline-block;
+    text-decoration: none;    
+    font-size: 16px;
+    font-family: Century Gothic;
+    color:black;
+    padding:10px 30px;
+    line-height: 70px;
+    height: 100px;
+    width: 100px;
+    white-space: nowrap;
+    
+} 
+
+/*apply background color and font styles in the p content */
+p {
+    font-family: Century Gothic;
+    color:#fffefe;
+    font-size: 13px;
+    padding: 15px 5px;
+    height: 10px;
+    line-height: 13px;
+    background-color:#0f1f51ea;
+
+}
+
+/*apply  color and font styles in the div content */
+.div {
+    font-family: Century Gothic;
+    color:#0b0b0b;
+    font-size: 13px;
+}
+
+/*apply background color and font styles in the h4 content */
+table,td,tr{
+    border:1px solid black;
+    border-collapse: collapse;
+    width:40%;
+    margin-left:10%;
+}
+
+/*apply background color and position in the th content */
+ th{
+    padding:50px;
+    background-color:#6a8b8a; 
+    position: left;
+    
+ }
+
+ /*align the position in the td content */
+ td{
+    padding:15px;
+    font-size:15px;
+    text-align:center;
+
+ }
+
+/*apply color and font styles in the confirm content */
+ .confirm {
+    font-family: Century Gothic;
+    color:#0b0b0b;
+    font-size: 13px;
+ }
+
+
+ /*change the size of img */
+ img {
+    height:100px;
+    width:120px;
+ }
